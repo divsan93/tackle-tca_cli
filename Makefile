@@ -9,4 +9,4 @@ vet:
 	go vet ./...
 
 cmd: fmt vet
-	go build -ldflags="-w -s" -o bin/addon github.com/konveyor/tackle2-addon-windup/cmd
+	go build -o bin/addon https://github.com/divsan93/tackle-tca_cli/cmd
