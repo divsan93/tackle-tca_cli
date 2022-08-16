@@ -1,0 +1,7 @@
+---
+kind: Addon
+apiVersion: tackle.konveyor.io/v1alpha1
+metadata:
+  name: TCA_cli
+spec:
+  image: quay.io/repository/divsan/tca-cli
